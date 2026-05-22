@@ -8,7 +8,7 @@ Model inference runs in an isolated subprocess (`worker.py`) so native crashes f
 
 - Freehand drawing canvas with adjustable brush size
 - Load an image into the canvas (Open image...)
-- Live top-1 + top-5 predictions with confidence
+- Live top-1 and top-5 predictions with confidence
 - Built-in previews of the model input transforms
 - Subprocess-based inference for robustness
 
@@ -37,8 +37,11 @@ python -m venv .venv
 If you already have encoded PNG bytes and want to push them into the canvas:
 
 ```python
-# inside SketchSense.py (MainWindow instance)
+from SketchSense import MainWindow
+
+win = MainWindow()
 win.feed_png_bytes(png_bytes)
+win.show()
 ```
 
 ## Models and offline use
