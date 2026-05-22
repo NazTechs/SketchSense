@@ -12,6 +12,12 @@ Model inference runs in an isolated subprocess (`worker.py`) so native crashes f
 - Built-in previews of the model input transforms
 - Subprocess-based inference for robustness
 
+## Screenshot
+
+To add a screenshot, save it as `docs/screenshot.png` and uncomment this line:
+
+<!-- ![SketchSense screenshot](docs/screenshot.png) -->
+
 ## Requirements
 
 - Python 3.10+
