@@ -16,7 +16,7 @@ Model inference runs in an isolated subprocess (`worker.py`) so native crashes f
 
 To add a screenshot, save it as `docs/screenshot.png` and uncomment this line:
 
-<!-- ![SketchSense screenshot](docs/screenshot.png) -->
+![SketchSense screenshot](docs/screenshot.png)
 
 ## Requirements
 
